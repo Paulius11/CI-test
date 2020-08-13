@@ -1,6 +1,12 @@
-dist: windows
-cache:
-  npm: false
+os: windows
+language: node_js
+services: docker
+
+script:
+  - docker version
+  - docker images
+  - npm install -g rebase-docker-image
+  - rebase-docker-image -h
 git:
   depth: 1
 language: java
