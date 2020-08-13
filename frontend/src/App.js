@@ -4,7 +4,6 @@ import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import Login from "./components/Login";
 import Test from "./components/Test";
 import Dashboard from "./components/dashboard/Dashboard";
-import DeleteImage from "./components/DeleteImage";
 export default function App() {
   return (
     <Router>
